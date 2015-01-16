@@ -27,7 +27,7 @@ get_shift(char *pattern)
 		if (pattern[j + 1] == pattern[i]) {
 			j++;
 		}
-		shift[i] = -1;
+		shift[i] = j;
 	}
 	
 	return shift;
